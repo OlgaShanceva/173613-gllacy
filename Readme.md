@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Olga Shanceva](https://htmlacademy.ru/profile/id173613).
-* Наставник: `Неизвестно`.
+* Наставник: [Maxim Syomushkin](https://htmlacademy.ru/profile/id48647).
 
 ---
 
