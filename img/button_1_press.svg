@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278.656" height="63.06" viewBox="0 0 278.656 63.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="259.656" y="1455.97" width="278.656" height="63.06" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="259.656" y="1455.97" width="278.656" height="63.06" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjc4LjY1NiIgaGVpZ2h0PSI2My4wNiIgdmlld0JveD0iMCAwIDI3OC42NTYgNjMuMDYiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMTM5LjMyOCIgeTE9IjYzLjA2IiB4Mj0iMTM5LjMyOCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmMjY4NDMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZTc0YTM1Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIyNzguNjU2IiBoZWlnaHQ9IjYzLjA2Ii8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feFlood result="flood" flood-opacity="0.07"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur" stdDeviation="1.414" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#942718"/>
+      <feComposite result="composite-3" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="2"/>
+      <feComposite result="composite-4" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+    </filter>
+  </defs>
+  <path id="Подложка" class="cls-1" d="M291.3,1455.96H506.684a31.29,31.29,0,0,1,31.63,31.23,31.8,31.8,0,0,1-31.63,31.83H291.3a31.8,31.8,0,0,1-31.631-31.83A31.29,31.29,0,0,1,291.3,1455.96Z" transform="translate(-259.656 -1455.97)"/>
+</svg>
