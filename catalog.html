@@ -78,45 +78,38 @@
                 <li>Сливочное</li>
             </ul>
             <h1>Сливочное мороженое</h1>
-            <div class="filter">
-                <p class="filter">Сортировка</p>
-                <select id="sort">
-                    <option>По популярности</option>
-                    <option>Сначала недорогие</option>
-                    <option>Сначала дорогие</option>
-                    <option>По жирности</option>
-                    <img src="http://placehold.it/10x10" alt="">
-                </select>
-                <div class="range-filter">
-                    <div class="range-controls">
-                        <div class="scale">
-                            <div style="margin-left:50px;width:100px;" class="bar"></div>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>
+                        <label for="sort">Сортировка:</label><br>
+                        <select id="sort">
+                            <option>По популярности</option>
+                            <option>Сначала недорогие</option>
+                            <option>Сначала дорогие</option>
+                            <option>По жирности</option>
+                        </select>
+                        <div>
+                            <label for="price">Цена:</label><br>
+                            <div class="range-controls">
+                                <div class="scale"><div style="margin-left:50px;width:100px;" class="bar"></div>
+                                    <div class="toggle min-toggle"></div>
+                                    <div class="toggle max-toggle"></div>
+                                </div>
+                            </div>
+                            <div class="price-controls">
+                                <input name="price" class="min-price" type="text" value="0">
+                                <input name="price" class="max-price" type="text" value="700">
+                            </div>
                         </div>
-                        <div class="toggle min-toggle"></div>
-                        <div class="toggle max-toggle"></div>
-                    </div>
-                    <div class="price-controls">
-                        <input class="min-price" type="text" value="0">
-                        <input class="max-price" type="text" value="700">
-                    </div>
-                </div>
-            </div>
-                </select>
-                <p class="filter">Жирность:</p>
-                <label for="fat-content-1">
-                    <input id="fat-content-1" type="radio" name="fat-content" value="0%">0%
-                </label>
-                <label for="fat-content-2">
-                    <input id="fat-content-2" type="radio" name="fat-content" value="до 10%" checked>до 10%
-                </label>
-                <label for="fat-content-3">
-                    <input id="fat-content-3" type="radio" name="fat-content" value="до 30%">до 30%
-                </label>
-                <label for="fat-content-4">
-                    <input id="fat-content-4" type="radio" name="fat-content" value="выше 30%">выше 30%
-                </label>
-                <form action="#" method="post">
-                    <p class="filter">Наполнители:
+                        <label for="radio">Жирность: <br>
+                            <input type="radio" name="fat-content" value="0%">0%
+                            <input type="radio" name="fat-content" value="до 10%" checked>до 10%
+                            <input type="radio" name="fat-content-3" value="до 30%">до 30%
+                            <input type="radio" name="fat-content" value="выше 30%">выше 30%
+                        </label>
+                    </legend>
+                    <legend>
+                        <p class="filter">Наполнители:</p>
                         <input type="checkbox" name="structure" id="structure-1" checked>
                         <label for="structure-1">шоколадные</label>
                         <input type="checkbox" name="structure" id="structure-2" checked>
@@ -128,8 +121,9 @@
                         <input type="checkbox" name="structure" id="structure-5">
                         <label for="structure-4">джемы</label>
                         <input type="submit" value="Применить">
-                    </p>
-                </form>
+                    </legend>
+                </fieldset>
+            </form>
             <div class="catalog-content">
                 <a class="items" href="#">
                     <div class="items-1">
