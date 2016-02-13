@@ -1,5 +1,5 @@
 body {
-    background: #849d8f url(img/gllacy-index-1200.jpg) no-repeat8 
+    background-color: #849d8f; 
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 16px;
@@ -22,21 +22,20 @@ h2 {
     font-size: 60px;
     line-height: 60px;
 }
-.header {
-    
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 26px;
+
 }
 .container {
     width: 1148px;
-    margin: 0 auto;
-    padding: 0 26px;
+
 }
 .main-logo {
     vertical-align: middle;
     height: 63px;
     width: 153px;
-    float: left;
-
-    
 }
 .main-navigation {
     float: left;
