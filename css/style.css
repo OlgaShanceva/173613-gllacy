@@ -10,7 +10,13 @@ body {
   content: "";
   display: table;
   clear: both;
-
+}
+.to-left {
+    float: left;
+}
+.to-right {
+    float: right;
+}
 h1 {
     font-weight: bold;
     font-size: 24px;
@@ -25,27 +31,55 @@ h2 {
 .wrapper {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 26px;
 
 }
 .container {
     width: 1148px;
+    padding-left: 22px;
+    padding-right: 26px;
 
 }
 .main-logo {
     vertical-align: middle;
     height: 63px;
     width: 153px;
+    float: left;
 }
 .main-navigation {
     float: left;
     width: 703px;
     
 }
+.menu-catalog:hover > .sub-menu {
+    display: block;
+    /* не работает*/
+}
+.sub-menu {
+    display: none;
+}
+
 .user-block {
     float: right;
-    width: 266px;
-    
+    width: 266px;  
+}
+.search:hover > .search-field {
+    display: block;
+}
+.search-field {
+    display: none;
+}
+.login:hover > .login-field {
+    display: block;
+    /* не работает*/
+}
+.login-field {
+    display: none;
+}
+.cart:hover > .order-table {
+    display: block;
+}
+.order-table {
+    display: none;
 }
 .head-contact {
     float: right;
@@ -53,10 +87,97 @@ h2 {
     
 
 }
+.main-content {
+    width: 1148px;
+    margin: 0 auto;
+    padding: 0 26px;
+}
+.slider {
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-slider {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 2px 4px #a0200b;
+    background: linear-gradient(#f26843, #e74a35) #e74a35;
+    font-size: 31px;
+    width: 280px;
+    height: 65px;
+    border-radius: 65px;
+    padding: 10px 36px;
+    display: block;
+
+}
+.banner-block {
+    height: 230px;
+}
+.banner-block-left {
+    width: 560px;
+    float: left;
+}
+.banner-block-right {
+    width: 560px;
+    float: right;
+}
+.popular-items {
+    font-size: 0;
+}
+.item {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.ifeature-items {
+    min-height: 306px;
+    margin-bottom: 40px; 
+}
+.aside-content {
+    width: 560px;
+    min-height: 220px
+    margin-bottom: 40px; 
+}
+.blog {
+    width: 560px;
+    float: left;
+}
+.bg-subscribe {
+    width: 560px;
+    float: right;
+}
+.map {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top: 66px;
+    padding-left: 880px;
+}
+.contacts-container {
+    width: 302px;
+    min-height: 305px;
 
 
-
-
-
-
-
+}
+.footer-menu {
+   width: 1148px;
+    margin: 0 auto;
+    padding: 0 26px;
+}
+.footer-social {
+    width: 186px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    padding-right: 215px;
+}
+.footer-menu {
+    width: 344px;
+    padding-right: 215px;
+    float: left;
+}
+.copyright {
+    width: 188px;
+    float: right;
+}
+.feedback {
+    display: none;
+}
